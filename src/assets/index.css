@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  backface-visibility: hidden;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+}
+.box > h1 {
+  position: absolute;
+  width: 50vw;
+  color: #fff;
+  font-size: 76px;
+  text-align: center;
+  height: 50vh;
+  background: url('./league.png') no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
